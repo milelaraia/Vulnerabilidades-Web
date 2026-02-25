@@ -16,7 +16,7 @@ Ao fazer uma pesquisa qualquer no site observamos que as notícias são acessada
 
 O que significa que há um possível parâmetro `/admin.php` que nos dá acesso ao painel de administrador.
 
-Além disso, ao acessar a página de login `/login.php`, encontramos outro comentário no qual informa que o banco de dados utilizado pelo desenvolvedor foi o `SQLite`.
+Percebemos também que, ao acessar a página de login `/login.php`, encontramos outro comentário no qual informa que o banco de dados utilizado pelo desenvolvedor foi o `SQLite`.
 
 [![imagem-2026-02-25-174707604.png](https://i.postimg.cc/ydYCVFKr/imagem-2026-02-25-174707604.png)](https://postimg.cc/hJw5sQf9)
 
