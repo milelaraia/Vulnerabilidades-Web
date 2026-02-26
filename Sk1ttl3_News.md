@@ -75,6 +75,6 @@ Dessa maneira, acessamos o painel de administrador e conseguimos a `flag`.
 
 `Flag: DUCK{SK1TTL3_N3W5_2077_SQL1NJ3CT10N_H45_B33N_H4CK3D}`
 
-## Conclusão
+## Conclusão e Mitigações
 
-Este desafio demonstrou uma vulnerabilidade clássica de SQL Injection, causada pela ausência de validação e uso de consultas parametrizadas no banco SQLite. A falha permitiu manipular a lógica da aplicação e realizar authentication bypass, obtendo acesso ao painel administrativo sem credenciais válidas. No contexto do mundo real, esse tipo de vulnerabilidade é extremamente crítico, pois pode levar ao vazamento de dados sensíveis, escalonamento de privilégios e comprometimento total do sistema.
+Este desafio demonstrou uma vulnerabilidade clássica de SQL Injection, causada pela ausência de validação e uso de consultas parametrizadas no banco SQLite. A falha permitiu manipular a lógica da aplicação e realizar authentication bypass, obtendo acesso ao painel administrativo sem credenciais válidas. No contexto do mundo real, esse tipo de vulnerabilidade é extremamente crítico, pois pode levar ao vazamento de dados sensíveis, escalonamento de privilégios e comprometimento total do sistema. O desafio reforça a importância de práticas seguras de desenvolvimento, como consultas parametrizadas, validação adequada de entradas e controle rigoroso de autenticação e sessão.
